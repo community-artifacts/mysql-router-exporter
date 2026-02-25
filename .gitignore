@@ -1,4 +1,4 @@
 .idea
 .env
 .envrc
-mysqlrouter_exporter
+mysql-router-exporter

@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/littlebig-connection/mysqlrouter_exporter
+          images: ghcr.io/community-artifacts/mysql-router-exporter
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx

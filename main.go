@@ -326,7 +326,7 @@ func collectRouteMetrics(router *mysqlrouter.Router) {
 }
 
 func writeError(err error) {
-	_, _ = fmt.Fprintf(os.Stderr, "[mysqlrouter_exporter ERROR] %s\n", err.Error())
+	_, _ = fmt.Fprintf(os.Stderr, "[mysql-router-exporter ERROR] %s\n", err.Error())
 }
 
 func main() {
