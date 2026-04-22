@@ -19,7 +19,7 @@ LABEL maintainer="community-artifacts" \
   org.opencontainers.image.description="Prometheus exporter for MySQL Router." \
   org.opencontainers.image.licenses="AGPL"
 RUN <<EOF
-    apk add --no-cache ca-certificates libc6-compat \
+    apk add --no-cache ca-certificates libc6-compat
     rm -rf /var/cache/apk/*
 EOF
 COPY --from=builder /go/src/mysqlrouter_exporter/app /app

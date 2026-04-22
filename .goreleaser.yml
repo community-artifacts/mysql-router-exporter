@@ -26,5 +26,5 @@ archives:
 release:
   github:
     owner: community-artifacts
-    name: mysqlrouter_exporter
+    name: mysql-router-exporter
   prerelease: false
