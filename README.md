@@ -35,10 +35,10 @@ WantedBy=multi-user.target
 ## Container
 
 ```bash
-docker pull ghcr.io/community-artifacts/mysqlrouter_exporter:latest
+docker pull ghcr.io/community-artifacts/mysql-router-exporter:latest
 ```
 
-[Packages](https://github.com/community-artifacts/mysqlrouter_exporter/pkgs/container/mysqlrouter_exporter)
+[Packages](https://github.com/community-artifacts/mysql-router-exporter/pkgs/container/mysql-router-exporter)
 
 ## Environment
 

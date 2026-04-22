@@ -15,7 +15,7 @@ LABEL maintainer="community-artifacts" \
   org.opencontainers.image.url="https://github.com/community-artifacts/mysqlrouter_exporter" \
   org.opencontainers.image.source="https://github.com/community-artifacts/mysqlrouter_exporter" \
   org.opencontainers.image.vendor="community-artifacts" \
-  org.opencontainers.image.title="mysqlrouter_exporter" \
+  org.opencontainers.image.title="mysql-router-exporter" \
   org.opencontainers.image.description="Prometheus exporter for MySQL Router." \
   org.opencontainers.image.licenses="AGPL"
 RUN <<EOF
