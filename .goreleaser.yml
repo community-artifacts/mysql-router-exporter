@@ -1,11 +1,11 @@
 version: 2
-project_name: mysql-router-exporter
+project_name: mysqlrouter_exporter
 before:
   hooks:
     - go mod tidy
 builds:
   - main: .
-    binary: mysql-router-exporter
+    binary: mysqlrouter_exporter
     ldflags:
       - -s -w
       - -X main.version={{.Version}}
@@ -26,5 +26,5 @@ archives:
 release:
   github:
     owner: community-artifacts
-    name: mysql-router-exporter
+    name: mysqlrouter_exporter
   prerelease: false

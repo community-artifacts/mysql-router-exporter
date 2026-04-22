@@ -1,4 +1,4 @@
-module github.com/community-artifacts/mysql-router-exporter
+module github.com/community-artifacts/mysqlrouter_exporter
 
 go 1.24.1
 
@@ -7,6 +7,8 @@ require (
 	github.com/prometheus/client_golang v1.23.2
 	github.com/rluisr/mysqlrouter-go v1.2.0
 )
+
+replace github.com/rluisr/mysqlrouter-go => github.com/community-artifacts/mysqlrouter_exporter-go v0.0.0-20260422085810-dc40e53618a2
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
